@@ -13,8 +13,6 @@ After some time away from research, I am returning to the field and looking for 
 
 ## Open-source work
 
-I am currently discussing a [BIDS example for parallel manual and automated sleep-stage annotations](https://github.com/bids-standard/bids-examples/pull/560) with BIDS and HED contributors. The pull request is still a draft.
-
 I use Python, MNE, pandas, MATLAB/EEGLAB, OpenSesame, and numerical modelling. I am especially interested in EEG preprocessing, ERP analysis, sleep and circadian research, and experimental task design.
 
 Contact: [melanibouden@gmail.com](mailto:melanibouden@gmail.com)
