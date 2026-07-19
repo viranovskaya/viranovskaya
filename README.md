@@ -18,8 +18,8 @@ Open to PhD, predoctoral, and research-assistant opportunities in Vienna.
 - Recent merged contributions to the MNE ecosystem cover [OpenBLAS thread settings](https://github.com/mne-tools/mne-python/pull/14064), [tracking-system metadata](https://github.com/mne-tools/mne-bids/pull/1636), and [rest-epoch validation](https://github.com/mne-tools/mne-bids-pipeline/pull/1272).
 - Current work includes a [nested-dataset path fix](https://github.com/mne-tools/mne-bids/pull/1637), an [EEGLAB event-mapping fix](https://github.com/jackz314/eeglabio/pull/26), and a [manual EEG review checklist](https://github.com/ANCPLabOldenburg/megqc_documentation/pull/11) for MEEGqc documentation.
 
-## Methods and Interests
+## Methods and Tools
 
-I use Python, MNE, pandas, MATLAB/EEGLAB, OpenSesame, and numerical modelling. I am especially interested in EEG preprocessing, ERP analysis, sleep and circadian research, and experimental task design.
+Most of my analysis work is in Python, using MNE and pandas. I also have experience with MATLAB/EEGLAB and OpenSesame. Recent work has involved EEG quality control, event handling, comparisons between manual and automated sleep annotations, and numerical simulations.
 
 [ORCID](https://orcid.org/0009-0009-3819-9362) · [agafonovadaria97@gmail.com](mailto:agafonovadaria97@gmail.com)
