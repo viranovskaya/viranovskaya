@@ -15,8 +15,8 @@ Open to PhD, predoctoral, and research-assistant opportunities in Vienna.
 
 - [BIDS pull request #560](https://github.com/bids-standard/bids-examples/pull/560) is an open contribution proposing an example for parallel manual and automated sleep-stage annotations with BIDS and HED.
 - A [BIDS schema update](https://github.com/bids-standard/bids-specification/pull/2467) now warns when behavioural files containing onset and duration would be better represented as events.
-- Recent merged contributions to the MNE ecosystem cover [OpenBLAS thread settings](https://github.com/mne-tools/mne-python/pull/14064), [tracking-system metadata](https://github.com/mne-tools/mne-bids/pull/1636), and [rest-epoch validation](https://github.com/mne-tools/mne-bids-pipeline/pull/1272).
-- Current work includes a [nested-dataset path fix](https://github.com/mne-tools/mne-bids/pull/1637), an [EEGLAB event-mapping fix](https://github.com/jackz314/eeglabio/pull/26), and a [manual EEG review checklist](https://github.com/ANCPLabOldenburg/megqc_documentation/pull/11) for MEEGqc documentation.
+- Recent merged contributions to the MNE ecosystem cover [OpenBLAS thread settings](https://github.com/mne-tools/mne-python/pull/14064), [tracking-system metadata](https://github.com/mne-tools/mne-bids/pull/1636), [rest-epoch validation](https://github.com/mne-tools/mne-bids-pipeline/pull/1272), and [nested-dataset path matching](https://github.com/mne-tools/mne-bids/pull/1637).
+- Current work includes an [EEGLAB event-mapping fix](https://github.com/jackz314/eeglabio/pull/26) and a [manual EEG review checklist](https://github.com/ANCPLabOldenburg/megqc_documentation/pull/11) for MEEGqc documentation.
 
 ## Methods and Tools
 
