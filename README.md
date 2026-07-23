@@ -22,4 +22,4 @@ Open to PhD, predoctoral, and research-assistant opportunities in Vienna.
 
 Most of my analysis work is in Python, using MNE and pandas. I also have experience with MATLAB/EEGLAB and OpenSesame. Recent work has involved EEG quality control, event handling, comparisons between manual and automated sleep annotations, and numerical simulations.
 
-[ORCID](https://orcid.org/0009-0009-3819-9362) · [agafonovadaria97@gmail.com](mailto:agafonovadaria97@gmail.com)
+[ORCID](https://orcid.org/0009-0009-3819-9362) · [LinkedIn](https://www.linkedin.com/in/agafonova-neuro/) · [Email](mailto:agafonovadaria97@gmail.com)
