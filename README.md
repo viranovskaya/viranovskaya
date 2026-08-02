@@ -1,25 +1,33 @@
 # Hi, I'm Daria
 
-I work with EEG, sleep and behavioural data, experimental tasks, and reproducible research software. I have a Master's degree in Psychology with Distinction from HSE University, completed through the Cognitive Sciences and Technologies: From Neuron to Cognition programme. My training included EEG and ERP methods, neuroimaging, neural modelling, statistics, and experimental design.
+I build reproducible research software for EEG, sleep, behavioural experiments, and neurodata quality control. I have a Master's degree in Psychology with Distinction from HSE University's Cognitive Sciences and Technologies programme, with training in EEG/ERP methods, neuroimaging, neural modelling, statistics, and experimental design.
 
-Open to PhD, predoctoral, and research-assistant opportunities in Vienna.
+I am open to PhD, predoctoral, and research-assistant opportunities in Vienna.
 
-## Selected Research Software
+## Original projects
 
-- [Sleep-EEG staging evaluation](https://github.com/viranovskaya/sleep-eeg-staging-evaluation) (`v0.3.1`) — compared YASA predictions with expert annotations across 20 Sleep-EDF recordings and 28,259 aligned epochs. The analysis includes recording-level uncertainty, stage-specific errors, and edge-Wake sensitivity. [Zenodo DOI](https://doi.org/10.5281/zenodo.21354517).
-- [Dense-EEG stop-signal pipeline](https://github.com/viranovskaya/dense-eeg-stop-signal-pipeline) (`v0.1.0`) — reconstruction, quality control, and preprocessing of real 129-channel stop-signal EEG, with event rules and bad-channel decisions recorded for each participant.
-- [Neural dynamics models](https://github.com/viranovskaya/neural-dynamics-models) (`v0.1.0`) — models from my computational-neuroscience coursework, rewritten as a small Python package with tests.
-- [OpenSesame visual-world demo](https://github.com/viranovskaya/opensesame-visual-world-demo) — a runnable auditory visual-world task based on experimental programming I did during my MSc.
+- [NeuroData Release Security Audit](https://github.com/viranovskaya/neurodata-release-security-audit) — local, read-only privacy-metadata and integrity checks for neurodata release candidates; current status: public beta `v0.2.0b1`.
+- [Sleep-EEG staging evaluation](https://github.com/viranovskaya/sleep-eeg-staging-evaluation) — external evaluation of YASA on 20 Sleep-EDF recordings and 28,259 aligned epochs; current release: `v0.3.1` with a [Zenodo DOI](https://doi.org/10.5281/zenodo.21354517).
+- [Dense-EEG stop-signal pipeline](https://github.com/viranovskaya/dense-eeg-stop-signal-pipeline) — reconstructed QC, event handling, and preprocessing for 129-channel stop-signal EEG; active development continues after release `v0.1.0`.
+- [Neural dynamics models](https://github.com/viranovskaya/neural-dynamics-models) — tested simulations of equilibrium potentials, conductance dynamics, spiking networks, and graph topology; current release: `v0.1.0`.
+- [OpenSesame visual-world demo](https://github.com/viranovskaya/opensesame-visual-world-demo) — an eight-trial auditory visual-world software demonstration using generated stimuli; version metadata exists, but no GitHub release is published.
 
-## Open-source Contributions
+## Selected upstream contributions
 
-- [BIDS pull request #560](https://github.com/bids-standard/bids-examples/pull/560) is an open contribution proposing an example for parallel manual and automated sleep-stage annotations with BIDS and HED.
-- A [BIDS schema update](https://github.com/bids-standard/bids-specification/pull/2467) now warns when behavioural files containing onset and duration would be better represented as events.
-- Recent merged contributions to the MNE ecosystem cover [OpenBLAS thread settings](https://github.com/mne-tools/mne-python/pull/14064), [tracking-system metadata](https://github.com/mne-tools/mne-bids/pull/1636), [rest-epoch validation](https://github.com/mne-tools/mne-bids-pipeline/pull/1272), and [nested-dataset path matching](https://github.com/mne-tools/mne-bids/pull/1637).
-- Current work includes an [EEGLAB event-mapping fix](https://github.com/jackz314/eeglabio/pull/26), an [external actigraphy workflow and validation update](https://github.com/cbrnr/sleepecg/pull/315) for SleepECG, and a [manual EEG review checklist](https://github.com/ANCPLabOldenburg/megqc_documentation/pull/11) for MEEGqc.
+**Merged**
 
-## Methods and Tools
+- [BIDS schema warning for behavioural files with onset and duration](https://github.com/bids-standard/bids-specification/pull/2467).
+- MNE ecosystem documentation and validation for [OpenBLAS threads](https://github.com/mne-tools/mne-python/pull/14064), [tracking-system metadata](https://github.com/mne-tools/mne-bids/pull/1636), [rest epochs](https://github.com/mne-tools/mne-bids-pipeline/pull/1272), and [nested BIDS roots](https://github.com/mne-tools/mne-bids/pull/1637).
 
-Most of my analysis work is in Python, using MNE and pandas. I also have experience with MATLAB/EEGLAB and OpenSesame. Recent work has involved EEG quality control, event handling, comparisons between manual and automated sleep annotations, and numerical simulations.
+**Open**
+
+- [Parallel manual and automated sleep-stage annotations in BIDS/HED](https://github.com/bids-standard/bids-examples/pull/560).
+- [EEGLAB epoch-event mapping after dropped epochs](https://github.com/jackz314/eeglabio/pull/26).
+- [External actigraphy documentation for SleepECG](https://github.com/cbrnr/sleepecg/pull/315).
+- [Manual EEG review checklist for MEEGqc](https://github.com/ANCPLabOldenburg/megqc_documentation/pull/11).
+
+## Methods and tools
+
+Python, MNE, pandas, MATLAB/EEGLAB, OpenSesame, BIDS/HED, EEG quality control, event reconstruction, manual-versus-automated sleep annotation, and numerical simulation.
 
 [ORCID](https://orcid.org/0009-0009-3819-9362) · [LinkedIn](https://www.linkedin.com/in/agafonova-neuro/) · [Email](mailto:agafonovadaria97@gmail.com)
