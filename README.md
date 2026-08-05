@@ -17,13 +17,14 @@ I am open to PhD, predoctoral, and research-assistant opportunities in Vienna.
 **Merged**
 
 - [BIDS schema warning for behavioural files with onset and duration](https://github.com/bids-standard/bids-specification/pull/2467).
-- MNE ecosystem documentation and validation for [OpenBLAS threads](https://github.com/mne-tools/mne-python/pull/14064), [tracking-system metadata](https://github.com/mne-tools/mne-bids/pull/1636), [rest epochs](https://github.com/mne-tools/mne-bids-pipeline/pull/1272), and [nested BIDS roots](https://github.com/mne-tools/mne-bids/pull/1637).
+- MNE ecosystem documentation and validation for [OpenBLAS threads](https://github.com/mne-tools/mne-python/pull/14064), [tracking-system metadata](https://github.com/mne-tools/mne-bids/pull/1636), [rest epochs](https://github.com/mne-tools/mne-bids-pipeline/pull/1272), [nested BIDS roots](https://github.com/mne-tools/mne-bids/pull/1637), and [decoding with too few epochs](https://github.com/mne-tools/mne-bids-pipeline/pull/1284).
+- SleepECG contributions covering [external actigraphy inputs](https://github.com/cbrnr/sleepecg/pull/315) and [repeated searchback scans in unusable ECG segments](https://github.com/cbrnr/sleepecg/pull/319).
 
 **Open**
 
 - [Parallel manual and automated sleep-stage annotations in BIDS/HED](https://github.com/bids-standard/bids-examples/pull/560).
+- [CAP Sleep Database reader for SleepECG](https://github.com/cbrnr/sleepecg/pull/321).
 - [EEGLAB epoch-event mapping after dropped epochs](https://github.com/jackz314/eeglabio/pull/26).
-- [External actigraphy documentation for SleepECG](https://github.com/cbrnr/sleepecg/pull/315).
 - [Manual EEG review checklist for MEEGqc](https://github.com/ANCPLabOldenburg/megqc_documentation/pull/11).
 
 ## Methods and tools
