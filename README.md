@@ -25,13 +25,9 @@ I am open to research software, research-assistant, predoctoral, and PhD roles i
 
 - [CUDA-backed Hilbert transforms in MNE-Python](https://github.com/mne-tools/mne-python/pull/14164).
 - [MNE-Python support for epoched EEGLAB files without events](https://github.com/mne-tools/mne-python/pull/14163).
-- [Parallel manual and automated sleep-stage annotations in BIDS/HED](https://github.com/bids-standard/bids-examples/pull/560).
 - [Validation for complete BrainVision file triplets](https://github.com/bids-standard/bids-specification/pull/2501).
+- [Parallel manual and automated sleep-stage annotations in BIDS/HED](https://github.com/bids-standard/bids-examples/pull/560).
 - [HED schema-manifest cache discovery](https://github.com/hed-standard/hed-python/pull/1372).
-- [PyBIDS handling of zero-padded integer metadata](https://github.com/bids-standard/pybids/pull/1267).
-- [EEGLAB epoch-event mapping after dropped epochs](https://github.com/jackz314/eeglabio/pull/26).
-- [Manual EEG review checklist for MEEGqc](https://github.com/ANCPLabOldenburg/megqc_documentation/pull/11).
-- [Draft literal output layout for MEEGqc](https://github.com/ANCPLabOldenburg/MEEGqc/pull/144).
 
 ## Methods and tools
 
