@@ -17,6 +17,7 @@ I am open to research software, research-assistant, predoctoral, and PhD roles i
 **Merged**
 
 - BIDS schema checks for [behavioural files with onset and duration](https://github.com/bids-standard/bids-specification/pull/2467) and [complete BrainVision file triplets](https://github.com/bids-standard/bids-specification/pull/2501).
+- A [PyBIDS indexing fix](https://github.com/bids-standard/pybids/pull/1273) that keeps entity parsing within the dataset root instead of matching entity-like parent directories.
 - MNE-Python contributions covering [CUDA-backed Hilbert transforms](https://github.com/mne-tools/mne-python/pull/14164), [epoched EEGLAB files without events](https://github.com/mne-tools/mne-python/pull/14163), [OpenBLAS threads](https://github.com/mne-tools/mne-python/pull/14064), and [docstring parameter types](https://github.com/mne-tools/mne-python/pull/14100).
 - MNE-BIDS ecosystem validation for [tracking-system metadata](https://github.com/mne-tools/mne-bids/pull/1636), [rest epochs](https://github.com/mne-tools/mne-bids-pipeline/pull/1272), [nested BIDS roots](https://github.com/mne-tools/mne-bids/pull/1637), and [decoding with too few epochs](https://github.com/mne-tools/mne-bids-pipeline/pull/1284).
 - SleepECG contributions covering [external actigraphy inputs](https://github.com/cbrnr/sleepecg/pull/315), [repeated searchback scans in unusable ECG segments](https://github.com/cbrnr/sleepecg/pull/319), and a [CAP Sleep Database reader](https://github.com/cbrnr/sleepecg/pull/321).
