@@ -1,10 +1,19 @@
 # Hi, I'm Daria
 
-I build reproducible research software for EEG, sleep, behavioural experiments, and neurodata quality control. I have a Master's degree in Psychology with Distinction from HSE University's Cognitive Sciences and Technologies programme, with training in EEG/ERP methods, neuroimaging, neural modelling, statistics, and experimental design.
+I am a scientific Python developer and computational neuroscience researcher. I build tested data pipelines, ML evaluation workflows, and reproducible research software for complex time-series and neurodata.
 
-I am open to research software, research-assistant, predoctoral, and PhD roles in Vienna, as well as remote roles within Europe.
+My work combines software delivery with research practice: reproducing difficult bugs, turning analysis code into maintainable packages, implementing validation and quality-control workflows, and documenting the assumptions behind numerical results. I have a Master's degree in Psychology with Distinction from HSE University's Cognitive Sciences and Technologies programme, with training in EEG/ERP methods, neuroimaging, neural modelling, statistics, and experimental design.
 
-## Selected research software
+I am available for remote contract and part-time work in scientific Python, ML evaluation, research software, and data pipelines. I am also open to research software, research-assistant, predoctoral, and PhD roles in Vienna.
+
+## What I can help with
+
+- **Scientific Python and research software** — refactoring notebooks and scripts into tested packages, command-line tools, and reproducible workflows.
+- **ML and model evaluation** — data alignment, validation design, appropriate metrics, error analysis, uncertainty reporting, and regression tests.
+- **Data pipelines and quality control** — time-series processing, structured metadata, traceable decisions, provenance, and automated reports.
+- **Debugging and upstream contributions** — minimal reproductions, numerical and API-safe fixes, focused tests, CI, and technical documentation.
+
+## Selected work
 
 - [NeuroData Release Security Audit](https://github.com/viranovskaya/neurodata-release-security-audit) — local, read-only checks of privacy-relevant metadata, file coverage, references, and integrity in neurodata release candidates; current prerelease: [`v0.2.1b1`](https://github.com/viranovskaya/neurodata-release-security-audit/releases/tag/v0.2.1b1).
 - [Sleep-EEG staging evaluation](https://github.com/viranovskaya/sleep-eeg-staging-evaluation) — external evaluation of YASA on 20 Sleep-EDF recordings and 28,259 aligned epochs; current release: [`v0.3.1`](https://github.com/viranovskaya/sleep-eeg-staging-evaluation/releases/tag/v0.3.1) with a [Zenodo DOI](https://doi.org/10.5281/zenodo.21354517).
@@ -27,8 +36,10 @@ I am open to research software, research-assistant, predoctoral, and PhD roles i
 - [Parallel manual and automated sleep-stage annotations in BIDS/HED](https://github.com/bids-standard/bids-examples/pull/560).
 - [HED schema-manifest cache discovery](https://github.com/hed-standard/hed-python/pull/1372).
 
-## Methods and tools
+## Technical focus
 
-Python, MNE, NumPy, pandas, SciPy, pytest, GitHub Actions, MATLAB/EEGLAB, OpenSesame, BIDS/HED, EEG quality control, sleep staging, metadata review, event reconstruction, and numerical simulation.
+**Core:** Python, NumPy, pandas, SciPy, pytest, GitHub Actions, numerical validation, time-series analysis, reproducible pipelines, and research software testing.
+
+**Scientific domains:** MNE, MATLAB/EEGLAB, BIDS/HED, EEG quality control, sleep staging, metadata review, event reconstruction, experimental software, and computational-neuroscience models.
 
 [ORCID](https://orcid.org/0009-0009-3819-9362) · [LinkedIn](https://www.linkedin.com/in/agafonova-neuro/) · [Email](mailto:agafonovadaria97@gmail.com)
