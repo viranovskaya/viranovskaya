@@ -15,7 +15,7 @@ I am available for remote contract and part-time work in scientific Python, ML e
 
 ## Selected work
 
-- [NeuroData Release Security Audit](https://github.com/viranovskaya/neurodata-release-security-audit) — local, read-only checks of privacy-relevant metadata, file coverage, references, and integrity in neurodata release candidates; current prerelease: [`v0.2.1b1`](https://github.com/viranovskaya/neurodata-release-security-audit/releases/tag/v0.2.1b1).
+- [NeuroData Release Security Audit](https://github.com/viranovskaya/neurodata-release-security-audit) — local, read-only checks of privacy-relevant metadata, file coverage, references, and integrity in neurodata release candidates; current prerelease: [`v0.3.0b1`](https://github.com/viranovskaya/neurodata-release-security-audit/releases/tag/v0.3.0b1), with a local browser interface for reviewing audit results without uploading data.
 - [Sleep-EEG staging evaluation](https://github.com/viranovskaya/sleep-eeg-staging-evaluation) — external evaluation of YASA on 20 Sleep-EDF recordings and 28,259 aligned epochs; current release: [`v0.3.1`](https://github.com/viranovskaya/sleep-eeg-staging-evaluation/releases/tag/v0.3.1) with a [Zenodo DOI](https://doi.org/10.5281/zenodo.21354517).
 - [Dense-EEG stop-signal pipeline](https://github.com/viranovskaya/dense-eeg-stop-signal-pipeline) — traceable QC, event reconstruction, reviewed ICA, provenance, and synthetic benchmarking for 129-channel stop-signal EEG; current release: [`v0.3.0`](https://github.com/viranovskaya/dense-eeg-stop-signal-pipeline/releases/tag/v0.3.0).
 - [Neural dynamics models](https://github.com/viranovskaya/neural-dynamics-models) — tested simulations of equilibrium potentials, conductance dynamics, spiking networks, and graph topology; current release: [`v0.1.0`](https://github.com/viranovskaya/neural-dynamics-models/releases/tag/v0.1.0).
@@ -34,7 +34,6 @@ I am available for remote contract and part-time work in scientific Python, ML e
 **Open**
 
 - [Parallel manual and automated sleep-stage annotations in BIDS/HED](https://github.com/bids-standard/bids-examples/pull/560).
-- [HED schema-manifest cache discovery](https://github.com/hed-standard/hed-python/pull/1372).
 
 ## Technical focus
 
