@@ -27,6 +27,8 @@ I am available for remote contract and part-time work in scientific Python, ML e
 
 **Merged**
 
+- A [correctness-first HED benchmark case](https://github.com/hed-standard/hed-benchmarks/pull/3) for retrieving parallel sleep annotations while preserving their source.
+- [IntervalSet support for event-triggered averages](https://github.com/pynapple-org/pynapple/pull/639) in Pynapple, using interval starts as event times.
 - BIDS schema checks for [behavioural files with onset and duration](https://github.com/bids-standard/bids-specification/pull/2467) and [complete BrainVision file triplets](https://github.com/bids-standard/bids-specification/pull/2501).
 - A [PyBIDS indexing fix](https://github.com/bids-standard/pybids/pull/1273) that keeps entity parsing within the dataset root instead of matching entity-like parent directories.
 - A [Cleo plotting fix](https://github.com/siplab-gt/cleo/pull/75) that sorts spectra before interpolation so unsorted wavelength inputs are handled correctly.
@@ -36,7 +38,6 @@ I am available for remote contract and part-time work in scientific Python, ML e
 
 **Open**
 
-- A [correctness-first HED benchmark case](https://github.com/hed-standard/hed-benchmarks/pull/3) for retrieving parallel sleep annotations while preserving their source.
 - [Lagged cross-correlation for continuous time series](https://github.com/pynapple-org/pynapple/pull/640) in Pynapple.
 - [Parallel manual and automated sleep-stage annotations in BIDS/HED](https://github.com/bids-standard/bids-examples/pull/560).
 
