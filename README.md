@@ -1,50 +1,34 @@
 # Hi, I'm Daria
 
-I am a scientific Python developer and computational neuroscience researcher. I build tested data pipelines, ML evaluation workflows, and reproducible research software for complex time-series and neurodata.
+I am a scientific Python developer and computational neuroscience researcher. I build tested research software for neurodata, time-series analysis, model evaluation, and reproducible scientific workflows.
 
-My work combines software delivery with research practice: reproducing difficult bugs, turning analysis code into maintainable packages, implementing validation and quality-control workflows, and documenting the assumptions behind numerical results. I have a Master's degree in Psychology with Distinction from HSE University's Cognitive Sciences and Technologies programme, with training in EEG/ERP methods, neuroimaging, neural modelling, statistics, and experimental design.
+I work on problems where numerical correctness, data provenance, validation, and clear reporting matter. My background includes EEG and sleep research, experimental design, statistics, and computational neuroscience.
 
-I contribute to the HED ecosystem as a member of the [`hed-standard`](https://github.com/hed-standard) GitHub organization, with current work on benchmark design and source-preserving retrieval of sleep annotations.
-
-I am available for remote contract and part-time work in scientific Python, ML evaluation, research software, and data pipelines. I am also open to research software, research-assistant, predoctoral, and PhD roles in Vienna.
-
-## What I can help with
-
-- **Scientific Python and research software** — refactoring notebooks and scripts into tested packages, command-line tools, and reproducible workflows.
-- **ML and model evaluation** — data alignment, validation design, appropriate metrics, error analysis, uncertainty reporting, and regression tests.
-- **Data pipelines and quality control** — time-series processing, structured metadata, traceable decisions, provenance, and automated reports.
-- **Debugging and upstream contributions** — minimal reproductions, numerical and API-safe fixes, focused tests, CI, and technical documentation.
+I am available for remote scientific Python and research-software work, and for research software, research assistant, predoctoral, and PhD roles in Vienna.
 
 ## Selected work
 
-- [NeuroData Release Security Audit](https://github.com/viranovskaya/neurodata-release-security-audit) — local, read-only checks of privacy-relevant metadata, file coverage, references, and integrity in neurodata release candidates; current prerelease: [`v0.3.0b1`](https://github.com/viranovskaya/neurodata-release-security-audit/releases/tag/v0.3.0b1), with a local browser interface for reviewing audit results without uploading data.
-- [Sleep-EEG staging evaluation](https://github.com/viranovskaya/sleep-eeg-staging-evaluation) — external evaluation of YASA on 20 Sleep-EDF recordings and 28,259 aligned epochs; current release: [`v0.3.1`](https://github.com/viranovskaya/sleep-eeg-staging-evaluation/releases/tag/v0.3.1) with a [Zenodo DOI](https://doi.org/10.5281/zenodo.21354517).
-- [Dense-EEG stop-signal pipeline](https://github.com/viranovskaya/dense-eeg-stop-signal-pipeline) — traceable QC, event reconstruction, reviewed ICA, provenance, and synthetic benchmarking for 129-channel stop-signal EEG; current release: [`v0.3.0`](https://github.com/viranovskaya/dense-eeg-stop-signal-pipeline/releases/tag/v0.3.0).
-- [Neural dynamics models](https://github.com/viranovskaya/neural-dynamics-models) — tested simulations of equilibrium potentials, conductance dynamics, spiking networks, and graph topology; current release: [`v0.1.0`](https://github.com/viranovskaya/neural-dynamics-models/releases/tag/v0.1.0).
-- [OpenSesame visual-world demo](https://github.com/viranovskaya/opensesame-visual-world-demo) — an eight-trial auditory visual-world software demonstration using generated stimuli; current release: [`v1.0.0`](https://github.com/viranovskaya/opensesame-visual-world-demo/releases/tag/v1.0.0).
+- [**NeuroData Release Security Audit**](https://github.com/viranovskaya/neurodata-release-security-audit) — a local, read-only tool for checking privacy-relevant metadata, archive structure, broken references, and scan integrity before neurodata release. Current prerelease: [`v0.3.0b1`](https://github.com/viranovskaya/neurodata-release-security-audit/releases/tag/v0.3.0b1).
+- [**Sleep-EEG staging evaluation**](https://github.com/viranovskaya/sleep-eeg-staging-evaluation) — external evaluation of YASA across 20 Sleep-EDF recordings and 28,259 aligned epochs, with recording-level uncertainty and stage-specific error analysis. Current release: [`v0.3.1`](https://github.com/viranovskaya/sleep-eeg-staging-evaluation/releases/tag/v0.3.1) · [Zenodo DOI](https://doi.org/10.5281/zenodo.21354517).
+- [**Dense-EEG stop-signal pipeline**](https://github.com/viranovskaya/dense-eeg-stop-signal-pipeline) — traceable QC, event reconstruction, reviewed ICA, provenance, and synthetic benchmarking for 129-channel EEG. Current release: [`v0.3.0`](https://github.com/viranovskaya/dense-eeg-stop-signal-pipeline/releases/tag/v0.3.0).
 
-## Selected upstream contributions
+Additional work includes [tested neural-dynamics simulations](https://github.com/viranovskaya/neural-dynamics-models) and a [privacy-safe OpenSesame visual-world demonstration](https://github.com/viranovskaya/opensesame-visual-world-demo).
 
-**Merged**
+## Open-source contributions
 
-- A [correctness-first HED benchmark case](https://github.com/hed-standard/hed-benchmarks/pull/3) for retrieving parallel sleep annotations while preserving their source.
-- [IntervalSet support for event-triggered averages](https://github.com/pynapple-org/pynapple/pull/639) in Pynapple, using interval starts as event times.
-- BIDS schema checks for [behavioural files with onset and duration](https://github.com/bids-standard/bids-specification/pull/2467) and [complete BrainVision file triplets](https://github.com/bids-standard/bids-specification/pull/2501).
-- A [PyBIDS indexing fix](https://github.com/bids-standard/pybids/pull/1273) that keeps entity parsing within the dataset root instead of matching entity-like parent directories.
-- A [Cleo plotting fix](https://github.com/siplab-gt/cleo/pull/75) that sorts spectra before interpolation so unsorted wavelength inputs are handled correctly.
-- MNE-Python contributions covering [CUDA-backed Hilbert transforms](https://github.com/mne-tools/mne-python/pull/14164), [epoched EEGLAB files without events](https://github.com/mne-tools/mne-python/pull/14163), [OpenBLAS threads](https://github.com/mne-tools/mne-python/pull/14064), and [docstring parameter types](https://github.com/mne-tools/mne-python/pull/14100).
-- MNE-BIDS ecosystem validation for [tracking-system metadata](https://github.com/mne-tools/mne-bids/pull/1636), [rest epochs](https://github.com/mne-tools/mne-bids-pipeline/pull/1272), [nested BIDS roots](https://github.com/mne-tools/mne-bids/pull/1637), and [decoding with too few epochs](https://github.com/mne-tools/mne-bids-pipeline/pull/1284).
-- SleepECG contributions covering [external actigraphy inputs](https://github.com/cbrnr/sleepecg/pull/315), [repeated searchback scans in unusable ECG segments](https://github.com/cbrnr/sleepecg/pull/319), and a [CAP Sleep Database reader](https://github.com/cbrnr/sleepecg/pull/321).
+I contribute focused fixes, tests, validation rules, and documentation to scientific Python and neuroinformatics projects. Selected merged contributions:
 
-**Open**
+- **HED and BIDS:** a [correctness-first benchmark for source-preserving sleep-annotation retrieval](https://github.com/hed-standard/hed-benchmarks/pull/3), schema checks for [behavioural timing columns](https://github.com/bids-standard/bids-specification/pull/2467) and [BrainVision file triplets](https://github.com/bids-standard/bids-specification/pull/2501), and a [PyBIDS indexing fix](https://github.com/bids-standard/pybids/pull/1273).
+- **Pynapple:** [IntervalSet support for event-triggered averages](https://github.com/pynapple-org/pynapple/pull/639), fixes for [ISI histograms with constant intervals](https://github.com/pynapple-org/pynapple/pull/656) and [failed tutorial downloads](https://github.com/pynapple-org/pynapple/pull/657).
+- **MNE ecosystem:** [CUDA-backed Hilbert transforms](https://github.com/mne-tools/mne-python/pull/14164), [EEGLAB import fixes](https://github.com/mne-tools/mne-python/pull/14163), [rest-epoch validation](https://github.com/mne-tools/mne-bids-pipeline/pull/1272), [decoding safeguards](https://github.com/mne-tools/mne-bids-pipeline/pull/1284), and [OpenBLAS thread-tuning documentation](https://github.com/mne-tools/mne-python/pull/14064).
+- **SleepECG:** [validation and documentation for external actigraphy inputs](https://github.com/cbrnr/sleepecg/pull/315), a [searchback correction](https://github.com/cbrnr/sleepecg/pull/319), and a [CAP Sleep Database reader](https://github.com/cbrnr/sleepecg/pull/321).
 
-- [Lagged cross-correlation for continuous time series](https://github.com/pynapple-org/pynapple/pull/640) in Pynapple.
-- [Parallel manual and automated sleep-stage annotations in BIDS/HED](https://github.com/bids-standard/bids-examples/pull/560).
+Open work includes [lagged cross-correlation in Pynapple](https://github.com/pynapple-org/pynapple/pull/640) and [parallel manual and automated sleep annotations in BIDS/HED](https://github.com/bids-standard/bids-examples/pull/560). See my [GitHub contribution history](https://github.com/pulls?q=is%3Apr+author%3Aviranovskaya) for the full list.
 
 ## Technical focus
 
-**Core:** Python, NumPy, pandas, SciPy, pytest, GitHub Actions, numerical validation, time-series analysis, reproducible pipelines, and research software testing.
+**Python:** NumPy, pandas, SciPy, pytest, GitHub Actions, numerical validation, model evaluation, and reproducible data pipelines.
 
-**Scientific domains:** MNE, MATLAB/EEGLAB, BIDS/HED, EEG quality control, sleep staging, metadata review, event reconstruction, experimental software, and computational-neuroscience models.
+**Neuroinformatics:** MNE, MATLAB/EEGLAB, BIDS/HED, EEG quality control, sleep staging, event reconstruction, provenance, and metadata review.
 
 [ORCID](https://orcid.org/0009-0009-3819-9362) · [LinkedIn](https://www.linkedin.com/in/agafonova-neuro/) · [Email](mailto:agafonovadaria97@gmail.com)
