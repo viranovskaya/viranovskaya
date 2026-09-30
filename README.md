@@ -8,7 +8,7 @@ I am available for remote scientific Python and research-software work, and for 
 
 ## Selected work
 
-- [**NeuroData Release Security Audit**](https://github.com/viranovskaya/neurodata-release-security-audit) — a local, read-only tool for checking privacy-relevant metadata, archive structure, broken references, and scan integrity before neurodata release. Current prerelease: [`v0.3.0b1`](https://github.com/viranovskaya/neurodata-release-security-audit/releases/tag/v0.3.0b1).
+- [**NeuroData Release Security Audit**](https://github.com/viranovskaya/neurodata-release-security-audit) — a local, read-only tool for checking privacy-relevant metadata, archive structure, broken references, and scan integrity before neurodata release. Current prerelease: [`v0.3.0b2`](https://github.com/viranovskaya/neurodata-release-security-audit/releases/tag/v0.3.0b2).
 - [**Sleep-EEG staging evaluation**](https://github.com/viranovskaya/sleep-eeg-staging-evaluation) — external evaluation of YASA across 20 Sleep-EDF recordings and 28,259 aligned epochs, with recording-level uncertainty and stage-specific error analysis. Current release: [`v0.3.1`](https://github.com/viranovskaya/sleep-eeg-staging-evaluation/releases/tag/v0.3.1) · [Zenodo DOI](https://doi.org/10.5281/zenodo.21354517).
 - [**Dense-EEG stop-signal pipeline**](https://github.com/viranovskaya/dense-eeg-stop-signal-pipeline) — traceable QC, event reconstruction, reviewed ICA, provenance, and synthetic benchmarking for 129-channel EEG. Current release: [`v0.3.0`](https://github.com/viranovskaya/dense-eeg-stop-signal-pipeline/releases/tag/v0.3.0).
 
